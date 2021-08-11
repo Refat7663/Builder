@@ -1,0 +1,264 @@
+*ul{
+	margin: 0;
+	padding: 0;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+
+header{
+	width: 100%;
+	position: absolute;
+	background: #fff;
+}
+
+/*********************
+ topber css code 
+ *********************/
+
+.topber{
+	padding: 10px 0px;
+	border-bottom: 1px solid #cccccc;
+}
+.topber ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right: 12px;
+	line-height: 26px;
+}
+.topber ul li i{
+	color: #cccccc;
+	font-size: 14px;
+}
+.topber .language-btn{
+	text-align: right;
+}
+.btn-secondary{
+	color: #777 !important;
+	background-color: #f9f9f9 !important;
+	border-color: #eee !important;
+	font-family: 'Roboto', sans-serif;
+}
+.quote-btn{
+	line-height: 28px;
+    border: 1px solid #fab700;
+    display: inline-block;
+    background: #fab700;
+    padding: 0px 19px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+.nav-item{
+	margin-right: 45px;
+}
+.nav-link{
+	/*color: #fav700;*/
+	color: #222222;
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.search i{
+	color: #cccccc;
+}
+
+/*********************
+ banner css code 
+ *********************/
+
+
+.banner{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../img/banner.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.bd-flex{
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+}
+.banner-text{
+	text-align: center;
+}
+.banner-text h3{
+	font-size: 60px;
+    font-family: "Oswald", sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.banner-text h3 span{
+	background: #fab700;
+    border-radius: 4px;
+    line-height: 60px;
+    color: #222222;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    display: inline-block;
+}
+.banner-text p{
+	font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    max-width: 500px;
+    margin: auto;
+    color: #fff;
+    margin-bottom: 42px;
+}
+.banner-btn{
+	padding: 0px 44px;
+    line-height: 50px;
+    background: #222222;
+    color: #fab700;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    -webkit-transition: all 300ms linear 0s;
+    -o-transition: all 300ms linear 0s;
+    transition: all 300ms linear 0s;
+}
+
+
+/*********************
+ service css code 
+ *********************/
+
+
+.services{
+	padding: 40px 0px;
+	background: white;
+}
+.title{
+	text-align: center;
+}
+.title h2{
+	font-family: "Oswald", sans-serif;
+    font-size: 36px;
+    color: #222222;
+    margin-bottom: 12px;
+}
+.title p{
+	font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    line-height: 24px;
+    color: #777777;
+    margin-bottom: 0px;
+}
+.feature-item{
+	text-align: center;
+	padding: 44px;
+	margin: 32px;
+}
+.feature-item:hover{
+	    box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 10%);
+}
+.service-area{
+	margin-top: 60px;
+}
+.feature-item img{
+	margin-bottom: 24px;
+}
+.feature-item h3{
+	font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    color: #222222;
+    margin-bottom: 18px;
+}
+.feature-item p{
+	font-size: 14px;
+    font-family: #777777;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*********************
+ gallery css code 
+ *********************/
+
+
+.gallery{
+	width: 100%;
+	padding: 40px 0px;
+}
+.gallery-items{
+	margin-top: 42px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.hover-text{
+	position: absolute;
+	color: black;
+	top: 42%;
+	left: 12%;
+	text-align: center;
+	z-index: 99;
+	opacity: 0;
+}
+.hover-text h4{
+	color: black;
+    font-size: 20px;
+    margin-bottom: 0px;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    opacity: 1;
+    margin-bottom: 24PX;
+}
+.hover-text p{
+	max-width: 470px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #222222;
+}
+.g-item{
+	position: relative;
+}
+.g-item::before{
+	content: '';
+	position: absolute;
+	background: rgba(250, 183, 0, 0.85);
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 9;
+	opacity: 0;
+}
+.g-item:hover .hover-text, .g-item:hover::before{
+	opacity: 1;
+}

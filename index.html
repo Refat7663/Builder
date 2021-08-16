@@ -13,6 +13,11 @@
     <!-- font awesome link -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- owl stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/ owl.theme.default.min.css">
+
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
@@ -24,7 +29,7 @@
   </head>
   <body>
     
-    <head>
+    <header>
       <!-- topber -->
       <div class="topber">
         <div class="container">
@@ -60,7 +65,8 @@
       </div>
       <!-- navber -->
 
-      <div class="container">
+      <div class="h-header">
+        <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -72,22 +78,30 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="#Home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" href="#About">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
+                  <a class="nav-link" href="#Services">Services</a>
                 </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#Blog">Pages</a><ul class="submenu">
+                      <li><a class="nav-link" href="#">Blog</a></li>
+                      <li><a class="nav-link" href="#">Blog Details</a></li>
+                    </ul>
+                  </li>
+                
+                   <li class="nav-item">
+                    <a class="nav-link" href="#Blog">Blog</a><ul class="submenu">
+                      <li><a class="nav-link" href="#">Blog</a></li>
+                      <li><a class="nav-link" href="#">Blog Details</a></li>
+                    </ul>
+                  </li>
+              
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pages</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" href="#Contact">Contact</a>
                 </li>
                 
               </ul>
@@ -97,9 +111,10 @@
             </div>
           </div>
         </nav>
+       </div>
       </div>
 
-    </head>
+    </header>
 
     <!-- banner section code start form here -->
     <section class="banner">
@@ -161,7 +176,7 @@
 
     <!-- gallery section code start form here -->
     <section class="gallery">
-      <div class="">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
             <div class="title">
@@ -226,9 +241,423 @@
     </section>
     <!-- gallery section code end form here -->
 
+    <!-- team-member section code start form here -->
+    <section class="team-member">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title">
+              <h2>Meet Our Expert Members</h2>
+              <p>Who are in extremely love with eco friendly system.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- team-member -->
+        <div class="row member-section"> 
+          <div class="col-md-3">
+            <div class="member">
+              <div class="member-img">
+                <img src="img/man-1.png">
+                <div class="hover-icon">
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <h3 class="member-name">Ethel Davis</h3>
+              <p class="member-des">Managing Director (Sales)</p>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="member">
+              <div class="member-img">
+                <img src="img/man-2.png">
+                <div class="hover-icon">
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <h3 class="member-name">Ethel Davis</h3>
+              <p class="member-des">Managing Director (Sales)</p>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="member">
+              <div class="member-img">
+                <img src="img/man-3.png">
+                <div class="hover-icon">
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <h3 class="member-name">Ethel Davis</h3>
+              <p class="member-des">Managing Director (Sales)</p>
+
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="member">
+              <div class="member-img">
+                <img src="img/man-4.png">
+                <div class="hover-icon">
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <h3 class="member-name">Ethel Davis</h3>
+              <p class="member-des">Managing Director (Sales)</p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- team-member section code end form here -->
+
+    <!-- project-count section code start form here -->
+    <section class="project-count">
+      <div class="container">
+        <div class="count-list">
+
+          <div class="list-1">
+            <h2>596</h2>
+            <p>Projects Completed</p>
+          </div>
+
+          <div class="list-1">
+            <h2>552</h2>
+            <p>Really Happy Clients</p>
+          </div>
+
+          <div class="list-1">
+            <h2>5962</h2>
+            <p>Total Tasks Completed</p>
+          </div>
+
+          <div class="list-1">
+            <h2>1009</h2>
+            <p>Cups of Coffee Taken</p>
+          </div>
+
+          <div class="list-1">
+            <h2>434</h2>
+            <p>In House Professionals</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- project-count section code end form here -->
+
+    <!-- feature section code start form here -->
+    <section class="feature">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="title">
+              <h2>Some Features that Made us Unique</h2>
+              <p>Who are in extremely love with eco friendly system.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="feature-grid">
+          <div class="f-item">
+            <h2>
+              <i class="fa fa-user-o"></i>
+              Expert Technicians
+            </h2>
+            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+          </div>
+          <div class="f-item">
+            <h2>
+              <i class="fa fa-id-card-o"></i>
+              Professional Service
+            </h2>
+            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+          </div>
+          <div class="f-item">
+            <h2>
+              <i class="fa fa-tty"></i>
+              Great Support
+            </h2>
+            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+          </div>
+          <div class="f-item">
+            <h2>
+              <i class="fa fa-rocket"></i>
+              Technical Skills
+            </h2>
+            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+          </div>
+          <div class="f-item">
+            <h2>
+              <i class="fa fa-diamond"></i>
+              Highly Recomended
+            </h2>
+            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+          </div>
+          <div class="f-item">
+            <h2>
+              <i class="fa fa-comment-o"></i>
+              Positive Reviews
+            </h2>
+            <p>Usage of the Internet is becoming more common due to rapid advancement of technology and power.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- feature section code end form here -->
+
+    <!-- testimonial section start end form here -->
+    <section class="testimonial-slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="owl-carousel owl-theme" id="owl-1">
+              <div class="items">
+                <div class="msg-box">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img src="img/logo-1.png">
+                    </div>
+                    <div class="col-md-7">
+                      <p class="t-content">Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.</p>
+                      <h4 class="t-name">Mark Alviro Wiens</h4>
+                      <p class="t-des">CEO at Google</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="items">
+                <div class="msg-box">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img src="img/logo-2.png">
+                    </div>
+                    <div class="col-md-7">
+                      <p class="t-content">Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.</p>
+                      <h4 class="t-name">Mark Alviro Wiens</h4>
+                      <p class="t-des">CEO at Google</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="items">
+                <div class="msg-box">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img src="img/logo-1.png">
+                    </div>
+                    <div class="col-md-7">
+                      <p class="t-content">Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.</p>
+                      <h4 class="t-name">Mark Alviro Wiens</h4>
+                      <p class="t-des">CEO at Google</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="items">
+                <div class="msg-box">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <img src="img/logo-2.png">
+                    </div>
+                    <div class="col-md-7">
+                      <p class="t-content">Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.</p>
+                      <h4 class="t-name">Mark Alviro Wiens</h4>
+                      <p class="t-des">CEO at Google</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimonial section code end form here -->
+
+    <!-- client-logo section code start form here -->
+    <section class="client-logo">
+      <div class="container">
+        <div class="row">
+          <div class="offset-1 col-md-10">
+            
+            <div class="owl-carousel owl-theme" id="owl-2">
+              <div class="items">
+                <img src="img/icon-4.png" class="img-fluid">
+              </div>
+              <div class="items">
+                <img src="img/icon-5.png" class="img-fluid">
+              </div>
+              <div class="items">
+                <img src="img/icon-6.png" class="img-fluid">
+              </div>
+              <div class="items">
+                <img src="img/icon-7.png" class="img-fluid">
+              </div>
+              <div class="items">
+                <img src="img/icon-8.png" class="img-fluid">
+              </div>
+              <div class="items">
+                <img src="img/icon-4.png" class="img-fluid">
+              </div>
+              <div class="items">
+                <img src="img/icon-5.png" class="img-fluid">
+              </div>
+              <div class="items">
+                <img src="img/icon-6.png" class="img-fluid">
+              </div>
+              <div class="items">
+                <img src="img/icon-7.png" class="img-fluid">
+              </div>
+              <div class="items">
+                <img src="img/icon-8.png" class="img-fluid">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- client-logo section code end form here -->
+
+    <!-- footer section code start form here -->
+<section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h6>About Us</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+          </div>
+          <div class="col-md-4">
+            <h6>Contact Us</h6>
+            <p class="c-p">56/8, Santa Monica bullevard, Los angeles, california, United states of america</p>
+            <a href="tel:01265325689746">012-6532-568-9746</a>
+            <a href="tel:01265325689746">012-6532-568-9746</a>
+          </div>
+          <div class="col-md-5 e-i">
+            <h6>Newsletter</h6>
+            <p>You can trust us. we only send promo offers, not a single spam.</p>
+            <input name="EMAIL" placeholder="Your email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required type="email">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="row c-r">
+          <div class="col-md-6">
+            <p>Copyright ©2021 All rights reserved | This template is made with
+               <i class="fa fa-heart-o" aria-hidden="true"></i>by<a href="">Colorlib</a>
+             </p>
+          </div>
+          <div class="col-md-6">
+            <ul class="f-icon">
+              <li><a href=""><i class="fa fa-facebook"></i></a></li>
+              <li><a href=""><i class="fa fa-twitter"></i></a></li>
+              <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+              <li><a href=""><i class="fa fa-behance"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- footer section code start form here -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+
+    <!-- js section start from here -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+
+
+    <script>
+      
+      $('#owl-1').owlCarousel({
+              loop:true,
+              margin:10,
+              nav:true,
+              autoplay:true,
+              autoplayTimeout:2000,
+              autoplayHoverPause:true,
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:2
+                  },
+                  1000:{
+                      items:2
+                  }
+              }
+          });
+
+
+      $('#owl-2').owlCarousel({
+              loop:true,
+              margin:10,
+              nav:true,
+              autoplay:true,
+              autoplayTimeout:2000,
+              autoplayHoverPause:true,
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:3
+                  },
+                  1000:{
+                      items:5
+                  }
+              }
+          })
+
+    </script>
+
+    <script>
+
+      window.addEventListener('scroll', function(){
+        var header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY>0);
+      })
+
+  </script>
+
+
+    <!-- js section end from here -->
 
    
   </body>
